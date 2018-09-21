@@ -1,0 +1,5 @@
+*.iso
+*.box
+*.qcow2
+output_rhel*
+packer_cache
