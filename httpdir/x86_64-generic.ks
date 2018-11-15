@@ -17,3 +17,9 @@ auth --passalgo=sha512 --useshadow
 selinux --enforcing
 firewall --enabled
 skipx
+%packages
+cloud-init
+%end
+%post
+touch /etc/cloud/cloud-init.disabled
+%end
